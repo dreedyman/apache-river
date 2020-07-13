@@ -1,0 +1,115 @@
+/*
+ * Copyright to the original author or authors.
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *         http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+rootProject.name = 'river'
+include(':river-browser')
+include(':groovy-config')
+include(':extra')
+include(':river-activation')
+include(':river-collections')
+include(':river-destroy')
+include(':river-discovery-providers')
+include(':river-iiop')
+include(':river-jeri')
+include(':river-jrmp')
+include(':phoenix-dl')
+include(':phoenix')
+include(':phoenix-group')
+include(':phoenix-init')
+include(':phoenix-common')
+
+include(':river-pref-class-loader')
+include(':river-ui-factory')
+include(':river-url-integrity')
+include(':river-platform')
+include(':river-start')
+include(':river-resources')
+include(':river-lib')
+include(':river-dl')
+include(':fiddler-dl')
+include(':fiddler-service')
+
+include(':group-service')
+include(':group-dl')
+
+include(':outrigger-dl')
+include(':outrigger-service')
+include(':outrigger-snaplogstore')
+
+include(':reggie-dl')
+include(':reggie-service')
+
+include(':mahalo-dl')
+include(':mahalo-service')
+
+include(':mercury-dl')
+include(':mercury-service')
+
+include(':norm-dl')
+include(':norm-service')
+
+include(':tools:checkconfigurationfile')
+include(':tools:checkser')
+include(':tools:classdep')
+include(':tools:classserver')
+include(':tools:computedigest')
+include(':tools:computehttpmdcodebase')
+include(':tools:envcheck')
+include(':tools:jarwrapper')
+include(':tools:preferredlistgen')
+include(':tools:security-policy-debug')
+
+include(':dist')
+include(':river-logging')
+project(':river-browser').projectDir = file('browser')
+project(':phoenix-dl').projectDir = file('phoenix-activation/phoenix-dl')
+
+project(':phoenix-group').projectDir = file('phoenix-activation/phoenix-group')
+project(':phoenix-init').projectDir = file('phoenix-activation/phoenix-init')
+project(':phoenix-common').projectDir = file('phoenix-activation/phoenix-common')
+project(':river-pref-class-loader').projectDir = file('river-pref-loader')
+project(':fiddler-dl').projectDir = file('river-services/fiddler/fiddler-dl')
+project(':fiddler-service').projectDir = file('river-services/fiddler/fiddler-service')
+
+project(':group-service').projectDir = file('river-services/group/group-service')
+project(':group-dl').projectDir = file('river-services/group/group-dl')
+
+project(':outrigger-dl').projectDir = file('river-services/outrigger/outrigger-dl')
+project(':outrigger-service').projectDir = file('river-services/outrigger/outrigger-service')
+project(':outrigger-snaplogstore').projectDir = file('river-services/outrigger/outrigger-snaplogstore')
+
+project(':reggie-dl').projectDir = file('river-services/reggie/reggie-dl')
+project(':reggie-service').projectDir = file('river-services/reggie/reggie-service')
+
+project(':mahalo-dl').projectDir = file('river-services/mahalo/mahalo-dl')
+project(':mahalo-service').projectDir = file('river-services/mahalo/mahalo-service')
+
+project(':mercury-dl').projectDir = file('river-services/mercury/mercury-dl')
+project(':mercury-service').projectDir = file('river-services/mercury/mercury-service')
+
+project(':norm-dl').projectDir = file('river-services/norm/norm-dl')
+project(':norm-service').projectDir = file('river-services/norm/norm-service')
+
+project(':tools:checkconfigurationfile').projectDir = file('tools/checkconfigurationfile')
+project(':tools:checkser').projectDir = file('tools/checkser')
+project(':tools:classdep').projectDir = file('tools/classdep')
+project(':tools:classserver').projectDir = file('tools/classserver')
+project(':tools:computedigest').projectDir = file('tools/computedigest')
+project(':tools:computehttpmdcodebase').projectDir = file('tools/computehttpmdcodebase')
+project(':tools:envcheck').projectDir = file('tools/envcheck')
+project(':tools:jarwrapper').projectDir = file('tools/jarwrapper')
+project(':tools:preferredlistgen').projectDir = file('tools/preferredlistgen')
+project(':tools:security-policy-debug').projectDir = file('tools/security-policy-debug')

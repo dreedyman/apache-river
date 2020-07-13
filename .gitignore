@@ -1,0 +1,23 @@
+.gitignore
+.idea/
+.idea/vcs.xml
+.gradle
+
+build/
+
+#IDE Files   
+###################
+#IntelliJ:
+*.ipr
+*.iml
+*.iws
+#netbeans
+nbactions.xml
+dependency-reduced-pom.xml
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
