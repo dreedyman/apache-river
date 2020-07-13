@@ -26,7 +26,9 @@ import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 import junit.framework.TestCase;
+import org.junit.Ignore;
 
+@Ignore
 public class Support_Exec extends TestCase {
 
     /**
