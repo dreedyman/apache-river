@@ -7,6 +7,7 @@ This is by no means complete, but used as a means to demonstrate how a modular v
 * The `groovy-config` module has been enabled.
 * All OSGi configurations need work.
 * Need to work on JAR manifests
+* Tests need to be added
 
 To build this project, run:
 
